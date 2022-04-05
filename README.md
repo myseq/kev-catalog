@@ -15,6 +15,27 @@ $ pip3 install -r requirements.txt
 Run kev-catalog and show the verbose information.
 ```console
 $ ./kev-catalog.py -h
+usage: kev-catalog.py [-h] [-i <n>] [-j <file.json>] [-l <N>] [-v] [-e <cve>] [-s <string>]
+
+   Zzzzz   |\      _,,,---,,_
+           /,`.-'`'    -.  ;-;;,_   __author__ : [ zd ]
+          |,4-  ) )-,_..;\ (  `'-'  __year__   : [ 2022.03 ]
+         '---''(_/--'  `-'\_)       __file__   : [ kev-catalog.py ]
+
+         [ CISA's Known Exploited Vulns (KEV) Catalog ]
+
+
+optional arguments:
+  -h, --help      show this help message and exit
+  -i <n>          Specifying most common vendor/product. Default is top 5.
+  -j <file.json>  Specifying local JSON file
+  -l <N>          Specifying latest N-cve. Default is last 2.
+  -v              verbose output
+
+Search in Catalog:
+  -e <cve>        Search a CVE within Known Exploited Vulnerabilities catalog.
+  -s <string>     Search a string within Known Exploited Vulnerabilities catalog.
+  
 $ ./kev-catalog.py -v 
 ```
 ![kev-catalog.py -v](screenshot/kev-catalog_v.png)
