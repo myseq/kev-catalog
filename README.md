@@ -8,32 +8,43 @@ You also can save the JSON file from CISA website, and perform local search with
 $ pip3 install -r requirements.txt
 ```
 
+
+
 ## Usages
 Run kev-catalog and show the verbose information.
 ```
 $ ./kev-catalog.py -h
 $ ./kev-catalog.py -v 
 ```
+![kev-catalog.py -v](screenshot/kev-catalog_v.png)
+
 
 Run kev-catalog and show the top 10 vendors and top 10 vulnerable products.
 ```
 $ ./kev-catalog.py -i 10
 ```
+![kev-catalog.py -i 10 -l 7](screenshot/kev-catalog_i.png)
+
 
 Run kev-catalog and show the last 8 days (inclusive) CVE.
 ```
 $ ./kev-catalog.py -l 8 
 ```
 
+
 Run kev-catalog and search for a specific CVE (2017-0143 for wannacry)
 ```
 $ ./kev-catalog.py -e 2017-0143
 ```
+![kev-catalog.py -e 2017-0143](screenshot/kev-catalog_e.png)
+
 
 Run kev-catalog and search for a specific keyword, like keep or bluekeep.
 ```
 $ ./kev-catalog.py -s keep
 ```
+![kev-catalog.py -s bluekeep](screenshot/kev-catalog_s.png)
+
 
 Run kev-catalog and refer to a local JSON file.
 ```
