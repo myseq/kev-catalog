@@ -20,34 +20,34 @@ $ ./kev-catalog.py -v
 
 
 Run kev-catalog and show the top 10 vendors and top 10 vulnerable products.
-```
+```console
 $ ./kev-catalog.py -i 10
 ```
 ![kev-catalog.py -i 10 -l 7](screenshot/kev-catalog_i.png)
 
 
 Run kev-catalog and show the last 8 days (inclusive) CVE.
-```
+```console
 $ ./kev-catalog.py -l 8 
 ```
 
 
 Run kev-catalog and search for a specific CVE (2017-0143 for wannacry)
-```
+```console
 $ ./kev-catalog.py -e 2017-0143
 ```
 ![kev-catalog.py -e 2017-0143](screenshot/kev-catalog_e.png)
 
 
 Run kev-catalog and search for a specific keyword, like keep or bluekeep.
-```
+```console
 $ ./kev-catalog.py -s keep
 ```
 ![kev-catalog.py -s bluekeep](screenshot/kev-catalog_s.png)
 
 
 Run kev-catalog and refer to a local JSON file.
-```
+```console
 $ ./kev-catalog.py -j known_exploited_vulnerabilities_20220401.json 
 ```
 
