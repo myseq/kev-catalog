@@ -3,6 +3,7 @@ A simple tool to query CISA's KEV catalog. This tool is written in Python to sho
 
 You also can save the JSON file from CISA website, and perform local search with this tool.
 
+
 ## Setup
 ```console
 $ pip3 install -r requirements.txt
@@ -10,7 +11,7 @@ $ pip3 install -r requirements.txt
 
 
 
-## Usages
+## Usage
 Run kev-catalog and show the verbose information.
 ```console
 $ ./kev-catalog.py -h
