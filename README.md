@@ -1,14 +1,16 @@
-# kev-catalog
-CISA Catalog of Known Exploited Vulnerabilities (KEV)
+# CISA Catalog of Known Exploited Vulnerabilities (KEV) 
 
-Description
-The simple python script shows the top-n vendors and the top-n products found in the json file. It also can show the Kenna query string on CVE, with overdue and upcoming CVE.
-Update on 'cisa-alerts.py'. 
+# kev-catalog Description
+The is a simple python script shows the top-n vendors and the top-n products found in the CISA's KEV. It also can search CVE or keyword in the KEV json file. 
 
-    Search CVE within catalog.
-    Search string within catalog.
-    Specify the top N vendors and products.
-    Specify the last N days of CVE added to catalog.
+## Usage
+$ kev-catalog -h
+$ kev-catalog -v 
+$ kev-catalog -i 10
+$ kev-catalog -l 8 
+$ kev-catalog -e 2017-0143
+$ kev-catalog -s keep
+
 
 # MySeq Blog
 https://myseq.blogspot.com/2022/03/cisa-known-exploited-vuln-catalog.html
