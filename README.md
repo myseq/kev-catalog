@@ -25,7 +25,7 @@ Run kev-catalog and show the last 8 days (inclusive) CVE.
 $ ./kev-catalog.py -l 8 
 ```
 
-Run kev-catalog and search for a specific CVE (2018-0143 or wannacry)
+Run kev-catalog and search for a specific CVE (2017-0143 for wannacry)
 ```
 $ ./kev-catalog.py -e 2017-0143
 ```
