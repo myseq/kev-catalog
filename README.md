@@ -6,28 +6,28 @@ You also can save the JSON file from CISA website, and perform local search from
 ## Usages
 Run kev-catalog and show the verbose information.
 ```
-$ ./kev-catalog -h
-$ ./kev-catalog -v 
+$ ./kev-catalog.py -h
+$ ./kev-catalog.py -v 
 ```
 
 Run kev-catalog and show the top 10 vendors and top 10 vulnerable products.
 ```
-$ ./kev-catalog -i 10
+$ ./kev-catalog.py -i 10
 ```
 
 Run kev-catalog and show the last 8 days (inclusive) CVE.
 ```
-$ ./kev-catalog -l 8 
+$ ./kev-catalog.py -l 8 
 ```
 
 Run kev-catalog and search for a specific CVE (2018-0143 or wannacry)
 ```
-$ ./kev-catalog -e 2017-0143
+$ ./kev-catalog.py -e 2017-0143
 ```
 
 Run kev-catalog and search for a specific keyword, like keep or bluekeep.
 ```
-$ ./kev-catalog -s keep
+$ ./kev-catalog.py -s keep
 ```
 
 Run kev-catalog and refer to a local JSON file.
