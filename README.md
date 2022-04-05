@@ -1,7 +1,7 @@
-# kev-catalog
+# kev-catalog.py
 A simple tool to query CISA's KEV catalog. This tool is written in Python to shows the top-N vendors and the top-N vulnerable products found in the CISA's KEV. It also can search a specific CVE or keyword in the KEV json file. 
 
-You also can save the JSON file from CISA website, and perform local search from this tool.
+You also can save the JSON file from CISA website, and perform local search with this tool.
 
 ## Setup
 ```
@@ -47,5 +47,6 @@ $ ./kev-catalog.py -j known_exploited_vulnerabilities_20220401.json
 
 
 # MySeq Blog
+There is a hidden feature that cna show the Kenna query string. See in the blog post.
 - https://myseq.blogspot.com/2022/03/cisa-known-exploited-vuln-catalog.html
 
