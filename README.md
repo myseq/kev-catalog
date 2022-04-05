@@ -59,5 +59,6 @@ $ ./kev-catalog.py -j known_exploited_vulnerabilities_20220401.json
 
 # MySeq Blog
 There is a hidden feature that cna show the Kenna query string. See in the blog post.
+- https://myseq.blogspot.com/2022/04/publish-kev-catalog-on-github.html
 - https://myseq.blogspot.com/2022/03/cisa-known-exploited-vuln-catalog.html
 
