@@ -31,7 +31,7 @@ count = 0
 def cg(x): return (f'{Fore.GREEN}{x}{Style.RESET_ALL}')
 def cy(x): return (f'{Fore.YELLOW}{x}{Style.RESET_ALL}')
 
-def Search_CVE(cisa, cveid):
+def Search_CVE(cisa, cveid): 
 
     for vuln in cisa["vulnerabilities"]:
         cve = vuln["cveID"].strip('CVE-')
